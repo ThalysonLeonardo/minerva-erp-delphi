@@ -2,8 +2,8 @@ object FPrincipal: TFPrincipal
   Left = 0
   Top = 0
   Caption = 'FPrincipal'
-  ClientHeight = 231
-  ClientWidth = 505
+  ClientHeight = 938
+  ClientWidth = 1421
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -316,4 +316,91 @@ object FPrincipal: TFPrincipal
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
+  object pnlHeader: TPanel
+    Left = 0
+    Top = 0
+    Width = 1421
+    Height = 89
+    Align = alTop
+    BevelOuter = bvNone
+    Color = 4531467
+    ParentBackground = False
+    TabOrder = 0
+    ExplicitWidth = 1258
+    object pnlLogo: TPanel
+      Left = 0
+      Top = 0
+      Width = 209
+      Height = 83
+      BevelOuter = bvNone
+      TabOrder = 0
+      object lblIdentification: TLabel
+        Left = 0
+        Top = 31
+        Width = 209
+        Height = 36
+        Alignment = taCenter
+        Caption = 'MinervaERP'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 15594734
+        Font.Height = -29
+        Font.Name = 'Fira Code'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+    end
+  end
+  object pnlAsideMenu: TPanel
+    Left = 0
+    Top = 89
+    Width = 209
+    Height = 849
+    Align = alLeft
+    BevelOuter = bvNone
+    Color = 4531467
+    ParentBackground = False
+    TabOrder = 1
+    ExplicitTop = 57
+    ExplicitHeight = 792
+  end
+  object pnlBackground: TPanel
+    Left = 209
+    Top = 89
+    Width = 1212
+    Height = 849
+    Align = alClient
+    BevelOuter = bvNone
+    TabOrder = 2
+    ExplicitLeft = 119
+    ExplicitTop = 41
+    ExplicitWidth = 1145
+    ExplicitHeight = 808
+    object pnlFooter: TPanel
+      Left = 0
+      Top = 801
+      Width = 1212
+      Height = 48
+      Align = alBottom
+      BevelOuter = bvNone
+      Color = 4531467
+      ParentBackground = False
+      TabOrder = 0
+      ExplicitTop = 760
+      ExplicitWidth = 1145
+    end
+    object pnlContent: TPanel
+      Left = 0
+      Top = 0
+      Width = 1212
+      Height = 801
+      Align = alClient
+      Color = 15594734
+      ParentBackground = False
+      TabOrder = 1
+      ExplicitLeft = 6
+      ExplicitTop = 6
+      ExplicitWidth = 1145
+      ExplicitHeight = 744
+    end
+  end
 end
