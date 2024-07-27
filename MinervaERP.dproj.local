@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<BorlandProject>
-	<Transactions>
-    <Transaction>2024/05/23 12:37:40.000.029,=C:\Users\thaly\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2024/05/23 12:39:21.000.505,C:\Users\thaly\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\thaly\OneDrive\Documentos\Projetos\MinervaERP\view.Principal.pas</Transaction>
-    <Transaction>2024/05/23 12:39:21.000.505,C:\Users\thaly\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\thaly\OneDrive\Documentos\Projetos\MinervaERP\view.Principal.dfm</Transaction>
-    <Transaction>2024/05/23 12:39:27.000.159,C:\Users\thaly\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\thaly\OneDrive\Documentos\Projetos\MinervaERP\MinervaERP.dproj</Transaction>
-  </Transactions>
-</BorlandProject>

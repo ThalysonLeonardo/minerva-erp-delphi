@@ -1,9 +1,9 @@
 object FPrincipal: TFPrincipal
-  Left = 0
-  Top = 0
+  Left = -49
+  Top = -55
   Caption = 'FPrincipal'
-  ClientHeight = 938
-  ClientWidth = 1421
+  ClientHeight = 590
+  ClientWidth = 938
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -314,19 +314,20 @@ object FPrincipal: TFPrincipal
     0000000000000000000000000000000000000000000000000000000000000000
     000000000000000000000000000000000000000000000000000000000000}
   OldCreateOrder = False
+  Position = poDesigned
   PixelsPerInch = 96
   TextHeight = 13
   object pnlHeader: TPanel
     Left = 0
     Top = 0
-    Width = 1421
+    Width = 938
     Height = 89
     Align = alTop
     BevelOuter = bvNone
     Color = 4531467
     ParentBackground = False
     TabOrder = 0
-    ExplicitWidth = 1258
+    ExplicitWidth = 1370
     object pnlLogo: TPanel
       Left = 0
       Top = 0
@@ -335,9 +336,9 @@ object FPrincipal: TFPrincipal
       BevelOuter = bvNone
       TabOrder = 0
       object lblIdentification: TLabel
-        Left = 0
+        Left = 16
         Top = 31
-        Width = 209
+        Width = 180
         Height = 36
         Alignment = taCenter
         Caption = 'MinervaERP'
@@ -354,53 +355,48 @@ object FPrincipal: TFPrincipal
     Left = 0
     Top = 89
     Width = 209
-    Height = 849
+    Height = 501
     Align = alLeft
     BevelOuter = bvNone
     Color = 4531467
     ParentBackground = False
     TabOrder = 1
-    ExplicitTop = 57
-    ExplicitHeight = 792
+    ExplicitHeight = 660
   end
   object pnlBackground: TPanel
     Left = 209
     Top = 89
-    Width = 1212
-    Height = 849
+    Width = 729
+    Height = 501
     Align = alClient
     BevelOuter = bvNone
     TabOrder = 2
-    ExplicitLeft = 119
-    ExplicitTop = 41
-    ExplicitWidth = 1145
-    ExplicitHeight = 808
+    ExplicitWidth = 1161
+    ExplicitHeight = 660
     object pnlFooter: TPanel
       Left = 0
-      Top = 801
-      Width = 1212
+      Top = 453
+      Width = 729
       Height = 48
       Align = alBottom
       BevelOuter = bvNone
       Color = 4531467
       ParentBackground = False
       TabOrder = 0
-      ExplicitTop = 760
-      ExplicitWidth = 1145
+      ExplicitTop = 612
+      ExplicitWidth = 1161
     end
     object pnlContent: TPanel
       Left = 0
       Top = 0
-      Width = 1212
-      Height = 801
+      Width = 729
+      Height = 453
       Align = alClient
       Color = 15594734
       ParentBackground = False
       TabOrder = 1
-      ExplicitLeft = 6
-      ExplicitTop = 6
-      ExplicitWidth = 1145
-      ExplicitHeight = 744
+      ExplicitWidth = 1161
+      ExplicitHeight = 612
     end
   end
 end
